@@ -3,5 +3,10 @@ import '@nomiclabs/hardhat-ethers'
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: '0.8.17',
+  solidity: '0.8.10',
+  networks: {
+    hardhat: {
+      chainID: 1337,
+    },
+  },
 }
