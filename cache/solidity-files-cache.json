@@ -107,6 +107,76 @@
       "artifacts": [
         "console"
       ]
+    },
+    "/Users/mintarasgrinius/Documents/VSCode/jpegdegens/contracts/TestGas.sol": {
+      "lastModificationDate": 1670090090131,
+      "contentHash": "acc13e564a0aa99178029d71269fbec3",
+      "sourceName": "contracts/TestGas.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestGas"
+      ]
+    },
+    "/Users/mintarasgrinius/Documents/VSCode/jpegdegens/contracts/Hero.sol": {
+      "lastModificationDate": 1670142553761,
+      "contentHash": "e3ec5e5bd0c5b6bb4169bae8a3b5da49",
+      "sourceName": "contracts/Hero.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hero"
+      ]
     }
   }
 }
